@@ -12,7 +12,7 @@ export default defineConfig({
   ],
   build: {
     outDir: 'dist'  // ここが 'dist' になっているか確認
-  }
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
