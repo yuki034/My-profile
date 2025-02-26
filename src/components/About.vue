@@ -26,7 +26,8 @@
   text-decoration: underline;
 }
 .about-img {
-  padding-left: 20px;
+  margin-top: 40px;
+  padding-left: 40px;
   width: 450px;
   height: 600px;
   object-fit: cover; 
