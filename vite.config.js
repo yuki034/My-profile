@@ -11,11 +11,11 @@ export default defineConfig({
     vueDevTools(),
   ],
   build: {
-    outDir: 'dist'  // ここが 'dist' になっているか確認
+    outDir: 'dist', // ここが 'dist' になっているか確認
   },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-})
+});
