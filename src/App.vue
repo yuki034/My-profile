@@ -21,39 +21,35 @@ import Works from './components/Works.vue';
 </script>
 
 <style>
-*{
-  margin: 0px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 /* PC用（デフォルト） */
 .container {
   width: 80%;
   margin: 0 auto;
-  font-size: 18px;
 }
 
-/* タブレット以下 */
-@media (max-width: 768px) {
+/* タブレット用 */
+@media (max-width: 1024px) {
   .container {
     width: 90%;
-    font-size: 16px;
   }
 }
 
-/* スマホ以下 */
-@media (max-width: 480px) {
+/* スマートフォン用 */
+@media (max-width: 768px) {
   .container {
-    width: 100%;
-    font-size: 14px;
+    width: 95%;
   }
-}
-.flex-box {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-img {
-  max-width: 100%;
-  height: auto;
+
+  /* 必要に応じて、各コンポーネントのスタイルを調整 */
+  .container div {
+    text-align: center;
+  }
 }
 
 </style>
