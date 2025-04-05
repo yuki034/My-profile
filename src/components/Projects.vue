@@ -6,6 +6,7 @@
         <li>HTML/CSS</li>
         <li>Javascript</li>
         <li>Vue.js</li>
+        <li>gas.js</li>
       </ul>
     </div>
   </div>
