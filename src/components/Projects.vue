@@ -5,8 +5,11 @@
       <ul>
         <li>HTML/CSS</li>
         <li>Javascript</li>
+        <li>TypeScript</li>
+        <li>React.js</li>
         <li>Vue.js</li>
         <li>gas.js</li>
+        <li>Next.js</li>
       </ul>
     </div>
   </div>

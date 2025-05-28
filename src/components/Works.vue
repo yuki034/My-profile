@@ -6,13 +6,19 @@
     <div class="content-object">
       <p>＊世界遺産判別サイト＊</p>
     </div>
+    <div class="content-object">
+      <p>*サーチカクテル*</p>
+    </div>
+    <div class="content-subject">
+      <p>カクテルのレシピや写真などが見られるサイトです。
+        <a href=https://main.d175d6hsjgifi.amplifyapp.com>サイトへ</a>
+      </p>
+    </div>
       <div class="content-subject">
         <p>日本にある世界遺産を入力すると何県にあって、どんな場所なのか写真が出てきます！
           <a href=https://yuki034.github.io/world-heritage>サイトへ</a>
         </p>
       </div>
-      
-
     </div>
 </template>
 

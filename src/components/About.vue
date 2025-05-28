@@ -5,7 +5,7 @@
     <div class="about-container">
       <h2 class="about-title">My profile</h2>
       <p class="about-title.name">名前 東條裕樹(トウジョウ ユウキ)</p>
-      <p class="about-title.age">年齢 20</p>
+      <p class="about-title.age">年齢 21</p>
       <p class="about-title.uni">大学 駒澤大学</p>
       <p class="about-title.overview">概要 大学では英米文学を学んでいます。<br />
          プログラミングには２年生の春休みから独学で学び始めました。

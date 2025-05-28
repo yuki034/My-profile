@@ -1,5 +1,5 @@
 <template>
-    <div class="container responsive">
+    <div>
       <Header />
       <Hero />
       <About />
@@ -44,12 +44,6 @@ import Works from './components/Works.vue';
 @media (max-width: 768px) {
   .container {
     width: 95%;
-  }
-
-  .responsive {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   /* 必要に応じて、各コンポーネントのスタイルを調整 */
