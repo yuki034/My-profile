@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
       <Header />
       <Hero />
       <About />
@@ -44,12 +44,28 @@ import Works from './components/Works.vue';
 @media (max-width: 768px) {
   .container {
     width: 95%;
+    padding: 10px;
   }
 
-  /* 必要に応じて、各コンポーネントのスタイルを調整 */
+    /* 各セクションの間隔を調整 */
+    .container > * {
+    margin-bottom: 20px;
+  }
+
+  /* フォントサイズの調整 */
+  h1, h2, h3, p {
+    font-size: 14px; /* スマホ用にフォントサイズを縮小 */
+  }
+
+  /* レイアウトの調整 */
   .container div {
     text-align: center;
   }
-}
 
+  /* 画像やコンテンツのサイズ調整 */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
 </style>
