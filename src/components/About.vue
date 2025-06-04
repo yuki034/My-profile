@@ -1,7 +1,7 @@
 <template>
   <div id="section1">
   <div class="about-wrapper">
-   <img class="about-img" src="/Users/tojouyuki/Downloads/programming_practice/tojo-portfolio/src/my profile用写真.jpg" alt="my profile用写真" >
+   <img class="about-img" src="src/my-profile.jpg" alt="my profile用写真" >
     <div class="about-container">
       <h2 class="about-title">My profile</h2>
       <p class="about-title.name">名前 東條裕樹(トウジョウ ユウキ)</p>
