@@ -1,7 +1,12 @@
+<script setup>
+import myProfileImage from '@/assets/my-profile.jpg'
+</script>
 <template>
   <div id="section1">
   <div class="about-wrapper">
-   <img class="about-img" src="src/my-profile.jpg" alt="my profile用写真" >
+    <template>
+  <img :src="myProfileImage" alt="プロフィール画像" />
+</template>
     <div class="about-container">
       <h2 class="about-title">My profile</h2>
       <p class="about-title.name">名前 東條裕樹(トウジョウ ユウキ)</p>
