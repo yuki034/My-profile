@@ -26,13 +26,13 @@ import myProfileImage from '@/assets/my-profile.jpg'
 .about-wrapper {
   display: flex;
   align-items: center;
-  gap: 20px;
-  padding: 20px;
+  gap: 40px;
+  padding: 20px 0; /* 左右の余白を削除 */
 }
 
 .profile-image img {
-  width: 200px;
-  height: 200px;
+  width: 300px; /* サイズを大きく */
+  height: 300px; /* サイズを大きく */
   border-radius: 50%;
   object-fit: cover;
 }
@@ -44,20 +44,18 @@ import myProfileImage from '@/assets/my-profile.jpg'
 .about-container {
   font-size: 30px;
   max-width: 600px;
-  padding-left: 60px;
+  padding-left: 0; /* 左の余白を削除 */
 }
 
-/* レスポンシブ対応 */
+/* スマホ対応 */
 @media (max-width: 768px) {
-  .about-wrapper {
-    flex-direction: column;
-    text-align: center;
-  }
-
   .profile-image img {
-    width: 150px;
-    height: 150px;
-    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+  }
+  
+  .about-wrapper {
+    padding: 10px;
   }
 }
 </style>
