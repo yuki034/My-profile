@@ -10,7 +10,6 @@
   padding-top: 400px;
   padding-bottom: 400px;
   text-align: center;
-  text-decoration: underline 7px;
   background-color: lightskyblue;
 }
 </style>
